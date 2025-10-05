@@ -1,3 +1,24 @@
+# NeuroRAG
+
+## Quickstart (local with Docker)
+
+This repository includes a scaffolded FastAPI backend and a Vite React frontend plus Postgres and Redis services. To run the full stack locally with Docker:
+
+1. Copy environment variables:
+
+```powershell
+cp backend\.env.template backend\.env
+```
+
+2. Build and start the services:
+
+```powershell
+docker-compose up --build
+```
+
+3. Open the frontend at http://localhost:5173 and backend at http://localhost:8000/health
+
+Note: The auth in this scaffold is a placeholder for demo purposes. Replace with proper user management and secure secrets before production.
 # 🤖 RAG Agent System
 
 A comprehensive **Retrieval-Augmented Generation (RAG) system with intelligent agents** built using Python, LangChain/LangGraph, and vector databases. This production-ready system provides modular components for document processing, embedding generation, semantic retrieval, and grounded response generation.

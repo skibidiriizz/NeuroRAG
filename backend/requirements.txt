@@ -1,0 +1,8 @@
+fastapi==0.100.0
+uvicorn[standard]==0.22.0
+sqlalchemy[asyncio]==2.1.0
+asyncpg==0.28.0
+python-jose==3.3.0
+PyJWT==2.8.0
+aioredis==2.0.1
+pydantic==1.10.12

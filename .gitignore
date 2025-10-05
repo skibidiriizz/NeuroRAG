@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+env/
+.venv/
+# virtualenv
+pip-wheel-metadata/
+# Jupyter
+.ipynb_checkpoints
+# VSCode
+.vscode/
+# macOS
+.DS_Store
+# OneDrive
+Thumbs.db
+# Python packaging
+build/
+dist/
+*.egg-info/
+# logs
+logs/
+*.log
+# data
+data/
+database/
+# sensitive config
+config.yaml
+# pipenv
+Pipfile.lock
+# pyenv
+.python-version
+# pytest
+.pytest_cache/
+# node
+node_modules/
+# compiled
+*.so
+
+# Docker
+docker/
+
+# coverage
+htmlcov/
+.coverage
+
+# Local env
+local_settings.py
+
+# PyCharm
+.idea/
+
+# secrets
+*.pem
+*.key
+
+# End of .gitignore

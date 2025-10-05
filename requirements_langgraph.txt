@@ -1,0 +1,23 @@
+# LangGraph and orchestration dependencies
+# These are optional dependencies for advanced workflow orchestration
+
+# Core LangGraph
+langgraph>=0.0.40
+langchain-core>=0.1.30
+langchain>=0.1.0
+
+# Additional LangChain components (optional)
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+
+# For workflow visualization (optional)
+matplotlib>=3.7.0
+graphviz>=0.20.0
+
+# For advanced async operations
+asyncio-throttle>=1.0.2
+aiofiles>=23.0.0
+
+# For workflow state persistence (optional)
+redis>=4.5.0
+pymongo>=4.3.0
